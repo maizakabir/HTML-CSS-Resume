@@ -1,1 +1,53 @@
-/* Your CSS styles go here */
+
+body
+{
+    background: teal;
+    width: 800px;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 50;
+    color: silver;
+    text-align: center;
+}
+
+.first
+{
+    font-size: 20;
+    color: blanchedalmond; 
+    margin: 20px;
+    padding: 5px;
+}
+
+ul
+{
+    border: 1px solid;
+    margin: 20px;
+    /*padding: ;*/
+}
+
+.second
+{
+    font-size: 20;
+    color: lemonchiffon;
+    margin: 20px;
+}
+
+ol
+{
+    margin: 20px;
+    
+}
+
+.third
+{
+    font-size-adjust: 20;
+
+}
+
+.fourth
+{
+    font-size: 20;
+}
