@@ -22,7 +22,7 @@ h1
 }
 
 div{
-    margin-left: 2px;
+    margin-left: 20px;
     margin-right: 250px;
     border-style: double;
     border-width: 5px;
@@ -87,4 +87,108 @@ form{
 button:hover{
     background-color: black;
     color: white;
+}
+
+/*Responsive design*/
+
+@media (max-width: 546px)
+{
+    body{
+        width: 100%;
+        font-size: 13px;
+        background: teal;
+    }
+    
+    h1{
+        width: 100%;
+        font-size: 50px;
+        color: silver;
+    }
+    
+    .first{
+        font-size: 25;
+        color: blanchedalmond;
+    }
+    
+    ul{
+        font-size: 15px;
+    }
+    .second{
+        font-size: 25;
+        color: blanchedalmond;
+    }
+    
+    .third{
+        font-size: 25;
+        color: blanchedalmond;
+    }
+    
+    .fourth{
+        font-size: 25;
+        color: blanchedalmond;
+    }
+    
+    table{
+        border: 5px solid black;
+        width: 40%;
+    }
+    
+    th{
+        border: 5px dotted black;
+    }
+    
+    td{
+        border: 4px double black;
+    }
+}
+
+@media (max-width: 1365px) and (min-width: 547px)
+{
+    body{
+        width: 100%;
+        font-size: 13px;
+        background: pink;
+    }
+    
+    h1{
+        width: 100%;
+        font-size: 50px;
+        color: brown;
+    }
+    
+    .first{
+        font-size: 25;
+        color: black;
+    }
+    
+    div{
+        font-size: 14;    
+    }
+    .second{
+        font-size: 25;
+        color: black;
+    }
+    
+    .third{
+        font-size: 25;
+        color: black;
+    }
+    
+    .fourth{
+        font-size: 25;
+        color: black;
+    }
+    
+    table{
+        border: 5px solid white;
+        width: 40%;
+    }
+    
+    th{
+        border: 5px dotted white;
+    }
+    
+    td{
+        border: 4px double white;
+    }
 }
